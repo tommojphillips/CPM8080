@@ -4,3 +4,11 @@ win32\
 .vs\
 .vscode\
 CPM8080\
+/vc/.vs/CPM8080
+/vc/CPM8080/x64/Debug
+/vc/x64/Debug
+/vc/CPM8080
+/vc/Debug
+/vc/Release
+/vc/x64/Release
+/bin
