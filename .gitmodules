@@ -1,0 +1,3 @@
+[submodule "lib/i8080"]
+	path = lib/i8080
+	url = https://github.com/tommojphillips/i8080.git
