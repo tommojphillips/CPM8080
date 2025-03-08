@@ -136,6 +136,3 @@ void cpm_destroy() {
 		cpm.memory = NULL;
 	}
 }
-
-void cpm_vblank() {
-}

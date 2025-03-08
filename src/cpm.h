@@ -23,7 +23,6 @@ int cpm_init();
 void cpm_destroy();
 void cpm_reset();
 int cpm_update();
-void cpm_vblank();
 	
 #ifdef __cplusplus
 };
