@@ -1,6 +1,6 @@
-# Intel 8080 CPM/OS Emulator
+# Intel 8080 CPM Program Emulator
 
-A CPM/OS Intel 8080 program emualator  
+A Intel 8080 CPM Program Emualator written in C.
 
  - [Usage](#usage)
  - [Building](#building)
