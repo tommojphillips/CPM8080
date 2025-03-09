@@ -9,14 +9,10 @@ A Intel 8080 CPM Program Emualator written in C.
 
 ## Usage
 
- The project is built in Visual Studio 2022
-
 Syntax:
  ```
- CPM8080.exe <filename>
+ CPM8080.exe <rom>
  ```
-
----
 
 ## Building
 
