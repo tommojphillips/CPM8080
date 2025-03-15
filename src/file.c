@@ -40,3 +40,35 @@ int read_file_into_buffer(const char* filename, void* buff, const uint32_t buff_
 	fclose(file);
 	return 0;
 }
+
+int get_file_size(FILE* file, uint32_t* fileSize) {
+	if (file == NULL)
+		return 1;
+
+	fseek(file, 0, SEEK_END);
+	*fileSize = ftell(file);
+	fseek(file, 0, SEEK_SET);
+	return 0;
+}
+int file_exists(const char* filename) {
+	FILE* file = NULL;
+
+	if (filename == NULL)
+		return 1;
+
+	fopen_s(&file, filename, "rb");
+	if (file == NULL)
+		return 1;
+	fclose(file);
+	return 0;
+}
+
+int delete_file(const char* filename) {
+	if (filename == NULL)
+		return 1;
+
+	if (remove(filename) != 0)
+		return 1;
+
+	return 0;
+}
