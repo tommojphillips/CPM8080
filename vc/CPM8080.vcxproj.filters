@@ -33,6 +33,12 @@
     <ClCompile Include="..\lib\i8080\i8080_mnem.c">
       <Filter>i8080</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\bdos.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fcb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\cpm.h">
@@ -46,6 +52,12 @@
     </ClInclude>
     <ClInclude Include="..\lib\i8080\i8080_mnem.h">
       <Filter>i8080</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\bdos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\fcb.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
